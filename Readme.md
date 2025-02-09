@@ -1,7 +1,4 @@
-# Testline assignment
-
-# ReadMe
-
+# Testline assignment 
 ## Overview
 
 This **Quiz Project** is a web based quiz application built using Express.js, React, and Node.js. This documentation provides instructions on setting up and running both the backend and frontend of the project.
