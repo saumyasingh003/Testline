@@ -13,7 +13,7 @@ app.get("/api/quiz", async (req, res) => {
   try {
     const response = await axios.get("https://api.jsonserve.com/Uw5CrX");
     res.json(response.data);
-  } catch (error) {
+  } catch (error) { 
     console.error("Error fetching quiz data:", error.message);
     res.status(500).json({ error: "Failed to fetch quiz data" });
   }
